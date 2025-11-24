@@ -1,0 +1,16 @@
+# Ignorar directorios de control de versiones
+.git
+.svn
+.hg
+
+# Ignorar caché, entorno virtual y archivos temporales
+__pycache__
+*.pyc
+.venv
+venv/
+*.log
+tmp/
+
+# Ignorar archivos específicos de Docker/Build
+.dockerignore
+Dockerfile
